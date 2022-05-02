@@ -1,75 +1,48 @@
 <html>
   <head>
-    <title>C</title>
+    <title>I</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
     <style>
-      * {
-        background-color: #121212;
-      }
       body,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5 {
+      h1 {
         font-family: 'Raleway', sans-serif;
       }
-      .w3-quarter img {
-        margin-bottom: -6px;
-        cursor: pointer;
+      body,
+      html {
+        height: 100%;
       }
-      .w3-quarter img:hover {
-        opacity: 0.6;
-        transition: 0.3s;
+      .bgimg {
+        background-image: url('/w3images/forestbridge.jpg');
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
       }
-      .centered {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+      * {
+        background-color: #121212;
+        text-align: center;
+      }
+      h1 {
+        font-family: Helvetica, Arial, sans-serif;
+        color: aliceblue;
       }
     </style>
   </head>
-  <body class="w3-light-grey">
-    <!-- Top menu on small screens -->
-    <header class="w3-container w3-top w3-black w3-xlarge w3-padding-16">
-      <span class="w3-left w3-text-white w3-padding">SOME TOPIC I WISH WE COULD TALK ABOUT BEFORE WE STOP TALKING TO EACH OTHER</span>
-    </header>
-
-    <!-- Overlay effect when opening sidebar on small screens -->
-    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor: pointer" title="close side menu" id="myOverlay"></div>
-
-    <!-- !PAGE CONTENT! -->
-    <div class="w3-main w3-content" style="max-width: 1600px; margin-top: 83px">
-      <!-- Photo grid -->
-      <div class="w3-row w3-grayscale-min">
-        <div class="w3-quarter">
-          <div class="centered">
-          <img src="topic.jpg" style="width: 100%" onclick="onClick(this)" alt="Canoeing again"> Centered </div>
-        <img src="topic.jpg" style="width: 100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful" />
-        <img src="topic.jpg" style="width: 100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful" />
+  <body>
+    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+      <div class="w3-display-topleft w3-padding-large w3-xlarge">All belongs to Venecia</div>
+      <div class="w3-display-middle">
+        <h1 class="w3-jumbo w3-animate-top">Actually, there's another gift but you need to figure it out!</h1>
+        <hr class="w3-border-grey" style="margin: auto; width: 40%" />
+        <p class="w3-large w3-center">CLUE! Its a word and relates to Me.</p>
+        <p class="w3-medium w3-center">
+          No need to guess, the answer is my name Venecia but only Veneci without an A. cuz a small part like how 'A' does in my life just like you in my life, small but completing my life. Oh Yeah sorry, but this shouldve been 6pages but i
+          gotta delete one of them so yeah, Hope things are going great for you.
+        </p>
       </div>
-
-      <div class="w3-quarter">
-        <img src="topic.jpg" style="width: 100%" onclick="onClick(this)" alt="A girl, and a train passing" />
-        <img src="topic.jpg" style="width: 100%" onclick="onClick(this)" alt="Waiting for the bus in the desert" />
-        <img src="topic.jpg" style="width: 100%" onclick="onClick(this)" alt="Nature again.. At its finest!" />
-      </div>
-
-      <div class="w3-quarter">
-        <img src="topic.jpg" style="width: 100%" onclick="onClick(this)" alt="Waiting for the bus in the desert" />
-        <img src="topic.jpg" style="width: 100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset" />
-        <img src="topic.jpg" style="width: 100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful" />
-      </div>
-
-      <div class="w3-quarter">
-        <img src="topic.jpg" style="width: 100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature" />
-        <img src="topic.jpg" style="width: 100%" onclick="onClick(this)" alt="A girl, and a train passing" />
-        <img src="topic.jpg" style="width: 100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful" />
-      </div>
+      <div class="w3-display-bottomleft w3-padding-large">click on <a href="index.html" target="_blank">here to send the answer</a></div>
     </div>
   </body>
 </html>
